@@ -92,24 +92,24 @@
 # 5.Даны два файла, в каждом из которых находится запись многочлена.
 # Задача - сформировать файл, содержащий сумму многочленов.
 
-
-with open('Text_1.txt', 'w', encoding='utf-8') as file:
-    file.write('2*x^2 + 5*x^5')
-with open('Text_2.txt', 'w', encoding='utf-8') as file:
-    file.write('23*x^4 + 9*x^6')
-
-with open('Text_1.txt', 'r') as file:
-    Text_1 = file.readline()
-    list_of_text_1 = Text_1.split()
-with open('Text_2.txt', 'r') as file:
-    Text_2 = file.readline()
-    list_of_text_2 = Text_2.split()
-
-print(f'{list_of_text_1} + {list_of_text_2}')
-sum_Text = list_of_text_1 + list_of_text_2
-
-with open('sum_Text.txt', 'w', encoding='utf-8') as file:
-    file.write(f'{list_of_text_1} + {list_of_text_2}')
+#
+# with open('Text_1.txt', 'w', encoding='utf-8') as file:
+#     file.write('2*x^2 + 5*x^5')
+# with open('Text_2.txt', 'w', encoding='utf-8') as file:
+#     file.write('23*x^4 + 9*x^6')
+#
+# with open('Text_1.txt', 'r') as file:
+#     Text_1 = file.readline()
+#     list_of_text_1 = Text_1.split()
+# with open('Text_2.txt', 'r') as file:
+#     Text_2 = file.readline()
+#     list_of_text_2 = Text_2.split()
+#
+# print(f'{list_of_text_1} + {list_of_text_2}')
+# sum_Text = list_of_text_1 + list_of_text_2
+#
+# with open('sum_Text.txt', 'w', encoding='utf-8') as file:
+#     file.write(f'{list_of_text_1} + {list_of_text_2}')
 
 
 
